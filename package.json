@@ -1,0 +1,23 @@
+{
+  "name": "optimalflow-core",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev src/server.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^3.0.0",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.23",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.10",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "uuid": "^9.0.1"
+  }
+}
